@@ -3,3 +3,16 @@ O problema do banheiro unissex surgiu a partir de uma história de uma mulher qu
 
 * O banheiro só pode conter ou homens ou mulheres, nunca ambos ao mesmo tempo.
 * O banheiro deve ter um limite de 3 pessoas, para evitar que funcionários aproveitem para 'matar hora' com amigos.
+
+
+### Para compilar os fontes:
+
+  ```bash
+  g++ --std=c++11 -lpthread main.cpp bathroom.cpp -o bathroom
+  ```
+
+### Para executar:
+
+  ```bash
+  ./bathroom 
+  ```
